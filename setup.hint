@@ -1,0 +1,10 @@
+category: Lua
+requires: cygwin lua libgd2
+sdesc: "Lua libgd bindings"
+ldesc: "gd is a C graphics library created by Thomas Boutell that allows 
+your code to quickly draw complete images with lines, polygons, arcs, 
+text, multiple colors, cut and paste from other images, flood fills, 
+read in or write out images in the PNG, JPEG or GIF format.
+
+Lua-GD is a binding: a library that exports gd functions to the Lua
+Programming Language, allowing you to use gd from Lua."

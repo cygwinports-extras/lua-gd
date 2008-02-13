@@ -1,0 +1,11 @@
+DESCRIPTION="Lua libgd bindings"
+HOMEPAGE="http://lua-gd.luaforge.net/"
+SRC_URI="http://luaforge.net/frs/download.php/1592/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
+
+HTMLDOCS="doc/*"

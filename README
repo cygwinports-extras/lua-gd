@@ -1,0 +1,69 @@
+lua-gd
+------------------------------------------
+gd is a C graphics library created by Thomas Boutell that allows your 
+code to quickly draw complete images with lines, polygons, arcs, text, 
+multiple colors, cut and paste from other images, flood fills, read in 
+or write out images in the PNG, JPEG or GIF format.
+
+Lua-GD is a binding: a library that exports gd functions to the Lua 
+Programming Language, allowing you to use gd from Lua.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libgd2-2.0.35-1
+  lua-5.1.3-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+
+Canonical website:
+  http://lua-gd.luaforge.net/
+
+Canonical download:
+  http://luaforge.net/projects/lua-gd/
+
+-------------------------------------------
+
+Build instructions:
+  unpack lua-gd-2.0.33r2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./lua-gd-2.0.33r2-X.cygport all
+
+This will create:
+  /usr/src/lua-gd-2.0.33r2-X-src.tar.bz2
+  /usr/src/lua-gd-2.0.33r2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/lua/5.1/gd.dll
+  /usr/share/doc/lua-gd-2.0.33r2/COPYING
+  /usr/share/doc/lua-gd-2.0.33r2/README
+  /usr/share/doc/lua-gd-2.0.33r2/html/cat.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/catdiff.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/catmsg.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/clock-example.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/fontconfig-example.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/gifanim.gif
+  /usr/share/doc/lua-gd-2.0.33r2/html/index.html
+  /usr/share/doc/lua-gd-2.0.33r2/html/lua-gd.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/sierpinski.png
+  /usr/share/doc/lua-gd-2.0.33r2/html/stdfonts.png
+
+------------------
+
+Port Notes:
+
+----- version 2.0.33r2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
