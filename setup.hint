@@ -1,5 +1,5 @@
 category: Lua
-requires: cygwin lua libgd2
+requires: lua libgd2
 sdesc: "Lua libgd bindings"
 ldesc: "gd is a C graphics library created by Thomas Boutell that allows 
 your code to quickly draw complete images with lines, polygons, arcs, 
